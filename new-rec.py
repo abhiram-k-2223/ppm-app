@@ -5,7 +5,7 @@ import pickle
 
 with open(r'C:\Users\LENOVO T480\Desktop\ㅤ\model.pkl', 'rb') as file:
     model = pickle.load(file)
-
+st.write("place prediction")
 cgpa = st.number_input("Enter your CGPA")
 iq = st.number_input("Enter your IQ")
 
